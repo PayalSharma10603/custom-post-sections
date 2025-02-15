@@ -1,0 +1,209 @@
+.custom-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-content {
+    display: flex;
+    width: 100%;
+}
+
+.post-list {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.post-list ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.post-list li {
+    margin: 10px 0;
+}
+
+.post-details {
+    width: 65%;
+}
+
+.section-tags {
+    margin-top: 20px;
+    clear: both;
+}
+
+.section-tags ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.section-tags li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.custom-section .post-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.custom-section .post-content {
+    padding: 15px;
+}
+
+.custom-section .post-list {
+    max-height: 500px;
+    overflow-y: auto;
+}
+.veu_socialSet.veu_socialSet-position-after.veu_contentAddSection {
+    display: none;
+}
+h1.heading-title-posts {
+    text-align: center;
+    width: 100%;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+.search-form input {
+    padding: 5px;
+    margin-right: 10px;
+}
+.search-form{
+    display: flex;
+} 
+
+.reset-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.reset-button:hover {
+    background-color: #005177;
+    color: white;
+}
+.highlighted {
+    background-color: yellow;
+    font-weight: bold;
+}
+.active-tag {
+    font-weight: bold;
+    color: #0073aa;
+    text-decoration: underline;
+}
+
+/* Default title color */
+.post-title a {
+    color: black; /* Black color for the title */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.post-title a:active {
+    color: darkblue; /* Dark blue color when clicked */
+}
+
+.post-title a:focus {
+    color: green; 
+}
+
+.siteContent_after {
+    position: relative!important;
+    display: none!important;
+}
+.password-protection-form {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.password-heading {
+    display: block;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.password-protection-form h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.password-protection-form label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.password-protection-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.password-protection-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.password-protection-form button:hover {
+    background-color: #0056b3;
+}
+
+.password-protection-form .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+/* Password Modal Styles */
+.password-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.password-modal-content {
+    background: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    text-align: center;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.password-protection-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
